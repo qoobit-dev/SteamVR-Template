@@ -29,16 +29,35 @@ Features v1.5
 -Addition of a cone at the tip of the right trigger -- can be rotated
 -Desktop resize
 
+Version 1.6 - UE4.11.2: April 20, 2016
+New features:
+Pickup/release/throw any object on the scene with the controllers
+Platforms (simple move & matinee) teleport
+“UltraMan” mode
+Standing/seated experience switch
+2 different ways to teleport
+Custom scalability settings for the Vive
+3 adorable dogs on cubes to test scalability settings
+Lot of cleanup
+
+Default commands:
+Teleport with up trackpad (method #1)
+Grab/Release objects with trigger
+Menu buttons for UltraMan mode on/off
+Teleport with trigger (method #2) – it’s better to disable Grab before
+
+General options
+Toggle Camera Fade In/Out when teleport
+If Fade On, adjust blink time
+Standing/seated position
+Teleport distance
+Toggle right hand visibility
+
 Demo v1.1 at https://youtu.be/BYzwl1n-7gE 
+Demo v1.6 at https://youtu.be/GPfywx2ZeN0 
 
-Bugs
-Debugging squares of controllers and base stations do not follow after teleportation
-Cannot be moved while on moving platforms
-While teleportation and interaction with meshes works, it seems that the SceneRoot (initially at 0,0,0) doesn't move with the pawn. The previous 2 bugs probably are the result of this discrepancy.
-Fading camera when clipping through no go zones (i.e. walls) will result in system crash -- whether UE4 or entire system (reboot) -- beware!
-Pickup doesn't work yet
-
-Also on the groceries list:
+On the groceries list:
+-Fade out camera when entering no teleport zone
 -Camera passthrough / Tron mode
 -Leap motion integration
 -Adapt chaperone size to scene / scene to chaperone size (not sure if feasible/pertinent)
